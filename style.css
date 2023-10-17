@@ -1274,7 +1274,7 @@
 
 .macbook-pro .rectangle-5 {
   position: relative;
-  width: 575px;
+  width: 100vw;
   height: 250px;
   margin-right: -3px;
 }
@@ -1806,7 +1806,7 @@
 
 
 
-@media only screen and (min-width: 768px) {
+
 .iphone-pro-max {
   background-color: #ffffff;
   display: flex;
@@ -2348,8 +2348,8 @@
 }
 
 .iphone-pro-max .overlap-2 {
-  position: absolute;
-  width: 430px;
+  position: relative;
+  width: 1000px;
   height: 1292px;
   top: -296px;
   left: 0;
@@ -2357,7 +2357,7 @@
 
 .iphone-pro-max .rectangle-5 {
   position: absolute;
-  width: 430px;
+  width: 1000px;
   height: 1217px;
   top: 0;
   left: 0;
@@ -3579,4 +3579,13 @@
   line-height: 12px;
   white-space: nowrap;
 }
+@media screen and (max-width: 768px) {
+  .macbook-pro {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) {
+  .iphone-pro-max {
+    display: none;
+  }
 }
